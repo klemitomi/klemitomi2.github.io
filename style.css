@@ -1,0 +1,50 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#head {
+  text-align: center;
+  background: #1abc9c;
+  padding: 50px;
+  color: white;
+  font-family: Arial;
+}
+.navbar {
+  background: #333;
+  display: flex;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.layout {
+  display: flex;
+  
+}
+.main {
+  background-color: beige;
+  height: 500px;
+  flex-grow: 4;
+}
+.aside {
+  display: block;
+  background-color: red;
+  height: 500px;
+  flex-grow: 1;
+  padding: 15px;
+}
+.aside a {
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.aside a:hover {
+  background: #ddd;
+  color: black;
+}
