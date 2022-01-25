@@ -11,6 +11,7 @@ body {
 .navbar {
   background: #333;
   display: flex;
+  font-family: cursive;
 }
 .navbar a {
   color: white;
@@ -47,4 +48,26 @@ body {
 .aside a:hover {
   background: #ddd;
   color: black;
+}
+.ablink, {
+  border-radius: 20px;
+  border: solid grey 1px;
+  font-family: cursive;
+  color: antiquewhite;
+  background-color: #333;
+  height: 35px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.ablink:hover {
+  background-color: rgb(182, 34, 34);
+}
+.abouthead {
+  font-family: cursive;
+  background-color: royalblue;
+  width: 500px;
+  text-align: center;
 }
